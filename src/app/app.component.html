@@ -11,12 +11,6 @@
     </div>
 
     <div class="p-field p-col-12 p-md-4">
-        <label for="min-max">Min-Max</label>
-        <p-calendar [(ngModel)]="date4" [minDate]="minDate" [maxDate]="maxDate" [readonlyInput]="true"
-            inputId="min-max" id="calendar_minmax"></p-calendar>
-    </div>
-
-    <div class="p-field p-col-12 p-md-4">
         <label for="disabledays">Disable Days</label>
         <p-calendar [(ngModel)]="date5" [disabledDates]="invalidDates" [disabledDays]="[0,6]" [readonlyInput]="true"
             inputId="disabledays" id="calendar_disable_date"></p-calendar>
